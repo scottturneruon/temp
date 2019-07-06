@@ -1,0 +1,231 @@
+{
+  "accessors": [
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 4161,
+      "max": [
+        -0.077670924365520477,
+        0.40968650579452515,
+        2.6534814834594727
+      ],
+      "min": [
+        -1.4582995176315308,
+        -0.79556292295455933,
+        -1.3342969417572021
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 49932,
+      "componentType": 5126,
+      "count": 4161,
+      "max": [
+        0.99984192848205566,
+        0.99999028444290161,
+        0.99552011489868164
+      ],
+      "min": [
+        -0.99998021125793457,
+        -0.99998277425765991,
+        -0.9998432993888855
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 20247,
+      "max": [
+        4160
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "MarcoRomero (https://sketchfab.com/MarcoRomero)",
+      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+      "source": "https://sketchfab.com/models/d5d126549f254e21bfc1200eac7a38f1",
+      "title": "JUICY SALIF"
+    },
+    "generator": "Sketchfab-3.18.6",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 80988,
+      "byteOffset": 0,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 99864,
+      "byteOffset": 80988,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 180852,
+      "uri": "scene.bin"
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "emissiveFactor": [
+        0,
+        0,
+        0
+      ],
+      "name": "Aluminium",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.47230732040000001,
+          0.46766247890000001,
+          0.46766247890000001,
+          1
+        ],
+        "metallicFactor": 1,
+        "roughnessFactor": 0.17999999999999999
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "JUICY_SALIF_Aluminium_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0
+          },
+          "indices": 2,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "name": "RootNode (gltf orientation matrix)",
+      "rotation": [
+        -0.70710678118654746,
+        -0,
+        -0,
+        0.70710678118654757
+      ]
+    },
+    {
+      "children": [
+        2
+      ],
+      "name": "RootNode (model correction matrix)"
+    },
+    {
+      "children": [
+        3
+      ],
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        -1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "name": "743a679a9d2a4cfd8488f93e2db53cf9.fbx"
+    },
+    {
+      "children": [
+        4
+      ],
+      "name": "RootNode"
+    },
+    {
+      "children": [
+        5
+      ],
+      "matrix": [
+        7.5220952033996582,
+        0,
+        0,
+        0,
+        0,
+        1.6702406576473501e-15,
+        -7.5220952033996582,
+        0,
+        0,
+        7.5220952033996582,
+        1.6702406576473501e-15,
+        0,
+        0.0036714076995849609,
+        0,
+        0,
+        1
+      ],
+      "name": "JUICY_SALIF"
+    },
+    {
+      "children": [
+        6
+      ],
+      "matrix": [
+        1,
+        0,
+        -0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0.76804256439208984,
+        -5.9604644775390625e-08,
+        1.3345524072647095,
+        1
+      ],
+      "name": ""
+    },
+    {
+      "mesh": 0,
+      "name": "JUICY_SALIF_Aluminium_0"
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "OSG_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ]
+}
+
